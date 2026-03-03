@@ -1,0 +1,17 @@
+if SHIELD_OSPREY_68
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "osprey_68"
+
+endif
+
+# ---------------------
+# Kconfig for shield "osprey_68" with board "nice_nano_v2"
+# ---------------------
+if BOARD_NICE_NANO_V2 && SHIELD_OSPREY_68
+
+config SPI
+    default y
+
+endif
