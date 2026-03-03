@@ -3,4 +3,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: clementtttttttt/zmk-ps2/.github/workflows/build-user-config.yml@v0.3
+    uses: clementtttttttt/zmk/.github/workflows/build-user-config.yml@v0.3
