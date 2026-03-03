@@ -22,7 +22,6 @@
             , <&shifter 12 GPIO_ACTIVE_HIGH>
             , <&shifter 13 GPIO_ACTIVE_HIGH>
             , <&shifter 14 GPIO_ACTIVE_HIGH>
-            , <&shifter 15 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
