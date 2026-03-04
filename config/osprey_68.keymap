@@ -4,7 +4,6 @@
 
 
 / {
-	&out OUT_USB
 
     keymap {
         compatible = "zmk,keymap";
