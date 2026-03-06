@@ -32,6 +32,18 @@
             , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
+    
+    ps2bus: ps2bus {
+		compatible = "gpio-leds";
+		status = "okay";
+		ps2ck: ps2ck {
+			gpios = <&pro_micro 21 GPIO_ACTIVE_HIGH>;
+		};
+		ps2do: ps2do {
+			gpios = <&pro_micro 20 GPIO_ACTIVE_HIGH>;
+		};
+    };
+    
 };
 
 &physical_layout_osprey_68 {
